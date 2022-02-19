@@ -1,0 +1,23 @@
+{
+  "name": "chipfy-ir/octoapi",
+  "description": "The php restful api Part.",
+  "keywords": ["octopart", "php"],
+  "license": "MIT",
+  "homepage": "https://www.chipfy.ir",
+  "authors": [
+    {
+      "name": "abraham ghaemi",
+      "email": "ig.ghaemi@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Chipfy\\Part\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "guzzlehttp/guzzle": "^7.4"
+  }
+}
